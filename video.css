@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #9EC8B9;
+}
+.outer-header{
+    height: 5rem;
+    width: 100%;
+    background-color: #1B4242;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#logo1{
+    height: 60px;
+    width: 60px;
+    background-color: #C21292;
+    border: black;
+    border-radius: 50%;
+}
+#brand-name{
+    color: #EEE7DA;
+}
+.item a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#get-started{
+    background-color: whitesmoke;
+    padding:0.5rem 0.7rem 0.5rem;
+    border-radius: 11px;
+}#get-started a{
+    color: black;
+}
+
+.inner-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.inner-header:nth-child(2){
+    justify-content: end;
+ }
+/* .main-container{
+    display: grid;
+    grid-template-rows: 1fr;
+} */
+.inner-container{
+    margin-top: 2%;
+}
+.inner-container:nth-child(1){
+    display: flex;
+    justify-content: center;
+}
+.inner-container:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-auto-rows: 100px;
+    justify-content: center;
+    gap: 40px;
+}
+.inner-container:nth-child(3){
+    background-color: #A1EEBD;
+}
+.inner-container:nth-child(4){
+    background-color: #F6F7C4;
+}
+.inner-container:nth-child(5){
+    background-color: #F6D6D6;
+}
+
+.video-content{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+video{
+    border-radius: 10px;
+}

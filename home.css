@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #9EC8B9;
+}
+.outer-header{
+    height: 5rem;
+    width: 100%;
+    background-color: #1B4242;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#logo1{
+    height: 60px;
+    width: 60px;
+    background-color: #C21292;
+    border: black;
+    border-radius: 50%;
+}
+#brand-name{
+    color: #EEE7DA;
+}
+
+#brand-name :hover{
+    color: red;
+}
+.item a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#get-started{
+    background-color: whitesmoke;
+    padding:0.5rem 0.7rem 0.5rem;
+    border-radius: 11px;
+}#get-started a{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+#get-started :hover{
+    color: blue;
+}
+
+.inner-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.inner-header:nth-child(2){
+    justify-content: end;
+ }
+.portfolio{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom:2rem ;
+}
+.portfolio h1{
+    /* background-color: #424769; */
+    color: black;
+    text-decoration: underline;
+}
+p{
+    text-align: start;
+    padding-top: 2rem;
+    color: #092635;
+    text-transform: uppercase;
+}
+.container{
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: 30% 50%;
+    justify-content: center;
+}
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 5rem; */
+}
+.inner-container:nth-child(1){
+    /* align-items: end 100px; */
+    align-items: center;
+}
+.inner-container h1{
+    color: #597E52;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.aboutweb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 10rem 0 10rem
+}
+
+#aboutweb1{
+    text-align: center;
+}
+
